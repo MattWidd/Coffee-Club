@@ -1,0 +1,195 @@
+body {
+    width:100%;
+    margin: auto;
+}
+
+nav {
+    background-color: hotpink;
+    height: 60px;
+    width: 100%;
+    text-align: right;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    }
+
+nav li {
+    display: inline;
+    margin: 30px;
+    color: white;
+    font-size: larger;
+    font-family:"Rubik Mono One", monospace;
+
+}
+
+#banner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    top:60px;
+    align-content: center;
+    background-image: url(..//starting/photos/sean-benesh-yHDl4IcbDOA-unsplash.jpg);
+    background-size: cover;
+    height: 600px;
+    
+}
+
+.banel {
+    margin: 20px;
+    font-family: "Danfo", serif;
+    font-optical-sizing: auto;
+    margin-top: 150px;
+    margin-left: 60px;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "ELSH" 0;
+      font-size: 40px;
+    color: deeppink;
+   width: 400px;
+}
+
+header {
+    height: 200px;
+    width: 100%;
+    position: relative;
+    background-color: hotpink;
+
+}
+
+header h1 {
+    font-size: 100px;
+    color: azure;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin: auto;
+}
+
+
+header h2 {
+    font-size: 20px;
+    color: azure;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin: auto;
+}
+
+#main-content {
+    width: 60%;
+    margin: auto;
+
+}
+
+#main-content {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center; 
+}
+
+.about {
+    margin: 60px;
+}
+
+.meetdates {
+    display: flex;
+    color: azure;
+   
+}
+
+.days  {
+    background-color: hotpink;
+    margin: 10px;
+}
+
+footer {
+    background-color: deeppink;
+    color: azure;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    width: 30%;
+}
+
+@media  screen and (max-width: 800px) {
+    .banel {
+        font-size: 30px;
+        width: 100px
+    }
+
+    header {
+        height: 120px;
+    }
+
+    header h1 {
+        font-size: 60px;
+    }
+}
+
+@media  screen and (max-width: 430px) {
+    nav {
+        text-align: center;
+    }
+
+    nav li {
+        margin: 10px;
+        font-size: 15px;
+    }
+
+    header {
+        height: 80px;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    header h2 {
+        font-size: 15px;
+    }
+    #main-content {
+        width: 100%;
+        margin: auto;
+    
+    }
+    footer {
+        font-size: 15px;
+        width: 45%;
+    }
+}
+
+@media  screen and (max-width: 380px) {
+    header {
+        height: 80;
+    }
+    header h1 {
+        font-size: 30px;
+    }
+
+    header h2 {
+        font-size: 13px;    
+    }
+
+    .about {
+        margin: 10px;
+        font-size: 13px;
+    }
+
+    #banner {
+        height: 380px;
+        
+    }
+    .banel {
+        margin: 20px;
+        margin-top: 80px;
+        margin-left: 50px;
+        font-weight: 400;
+        font-size: 20px;
+        width: 100px;
+    }
+}
